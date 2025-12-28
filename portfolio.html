@@ -1,122 +1,166 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Portfolio — Your Name</title>
-  <meta name="description" content="Portfolio page for Your Name personal brand." />
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header class="site-header">
-    <div class="container navbar">
-      <a class="brand" href="index.html" aria-label="Go to Home">
-        <span class="brand-mark" aria-hidden="true"></span>
-        <span>Your Name</span>
-      </a>
+<main class="container">
+  <section class="hero">
+    <div class="kicker">Portfolio</div>
+    <h1>Projects</h1>
+    <p>
+      A curated selection of completed renovations and new construction.
+      Clean work, strong execution, and thoughtful design.
+    </p>
 
-      <nav class="nav-links" aria-label="Primary">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a class="active" href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+    <div class="actions">
+      <a class="btn primary" href="#completed">Completed Projects</a>
+      <a class="btn" href="#in-progress">In Progress</a>
     </div>
-  </header>
+  </section>
 
-  <main class="container">
-    <section class="hero">
-      <div class="kicker">Portfolio</div>
-      <h1>Selected work</h1>
-      <p>
-        Add your best work here. Keep each project short: what it was, what you did, and the result.
+  <!-- COMPLETED PROJECTS -->
+  <section class="section" id="completed">
+    <h2>Completed Projects</h2>
+
+    <!-- Subsection: Residential Flips -->
+    <div class="card" style="margin-top:14px;">
+      <h3>Residential Flips</h3>
+      <p style="margin-top:6px;">
+        6 completed transformations — design-forward updates, improved function, and elevated finishes.
       </p>
-    </section>
-
-    <section class="section">
-      <div class="grid">
-        <div class="card third">
-          <div class="project">
-            <div class="thumb" aria-hidden="true"></div>
-            <h3>Project Title</h3>
-            <p>1–2 lines describing the outcome.</p>
-            <div class="tags">
-              <span class="tag">Category</span><span class="tag">Year</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="card third">
-          <div class="project">
-            <div class="thumb" aria-hidden="true"></div>
-            <h3>Project Title</h3>
-            <p>1–2 lines describing the outcome.</p>
-            <div class="tags">
-              <span class="tag">Category</span><span class="tag">Year</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="card third">
-          <div class="project">
-            <div class="thumb" aria-hidden="true"></div>
-            <h3>Project Title</h3>
-            <p>1–2 lines describing the outcome.</p>
-            <div class="tags">
-              <span class="tag">Category</span><span class="tag">Year</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="card third">
-          <div class="project">
-            <div class="thumb" aria-hidden="true"></div>
-            <h3>Project Title</h3>
-            <p>1–2 lines describing the outcome.</p>
-            <div class="tags">
-              <span class="tag">Category</span><span class="tag">Year</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="card third">
-          <div class="project">
-            <div class="thumb" aria-hidden="true"></div>
-            <h3>Project Title</h3>
-            <p>1–2 lines describing the outcome.</p>
-            <div class="tags">
-              <span class="tag">Category</span><span class="tag">Year</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="card third">
-          <div class="project">
-            <div class="thumb" aria-hidden="true"></div>
-            <h3>Project Title</h3>
-            <p>1–2 lines describing the outcome.</p>
-            <div class="tags">
-              <span class="tag">Category</span><span class="tag">Year</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="actions" style="margin-top: 18px;">
-        <a class="btn primary" href="contact.html">Book / Inquire</a>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="container footer-row">
-      <div>© <span id="y"></span> Your Name</div>
-      <div><a href="about.html">More about me</a></div>
     </div>
-  </footer>
 
-  <script>
-    document.getElementById("y").textContent = new Date().getFullYear();
-  </script>
-</body>
-</html>
+    <div class="grid">
+      <!-- Flip 1 -->
+      <div class="card third">
+        <div class="project">
+          <div class="thumb" aria-hidden="true"></div>
+          <h3>Flip Project 01</h3>
+          <p>City/Neighborhood • Year • 1-sentence outcome.</p>
+          <div class="tags">
+            <span class="tag">Flip</span><span class="tag">Completed</span><span class="tag">Before/After</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Flip 2 -->
+      <div class="card third">
+        <div class="project">
+          <div class="thumb" aria-hidden="true"></div>
+          <h3>Flip Project 02</h3>
+          <p>City/Neighborhood • Year • 1-sentence outcome.</p>
+          <div class="tags">
+            <span class="tag">Flip</span><span class="tag">Completed</span><span class="tag">Design</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Flip 3 -->
+      <div class="card third">
+        <div class="project">
+          <div class="thumb" aria-hidden="true"></div>
+          <h3>Flip Project 03</h3>
+          <p>City/Neighborhood • Year • 1-sentence outcome.</p>
+          <div class="tags">
+            <span class="tag">Flip</span><span class="tag">Completed</span><span class="tag">Renovation</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Flip 4 -->
+      <div class="card third">
+        <div class="project">
+          <div class="thumb" aria-hidden="true"></div>
+          <h3>Flip Project 04</h3>
+          <p>City/Neighborhood • Year • 1-sentence outcome.</p>
+          <div class="tags">
+            <span class="tag">Flip</span><span class="tag">Completed</span><span class="tag">Kitchen</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Flip 5 -->
+      <div class="card third">
+        <div class="project">
+          <div class="thumb" aria-hidden="true"></div>
+          <h3>Flip Project 05</h3>
+          <p>City/Neighborhood • Year • 1-sentence outcome.</p>
+          <div class="tags">
+            <span class="tag">Flip</span><span class="tag">Completed</span><span class="tag">Baths</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Flip 6 -->
+      <div class="card third">
+        <div class="project">
+          <div class="thumb" aria-hidden="true"></div>
+          <h3>Flip Project 06</h3>
+          <p>City/Neighborhood • Year • 1-sentence outcome.</p>
+          <div class="tags">
+            <span class="tag">Flip</span><span class="tag">Completed</span><span class="tag">Value Add</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Subsection: New Construction (Completed) -->
+    <div class="card" style="margin-top:18px;">
+      <h3>New Construction (Completed)</h3>
+      <p style="margin-top:6px;">
+        A completed new-build project — from concept to completion, with elevated selections and execution.
+      </p>
+    </div>
+
+    <div class="grid">
+      <div class="card half">
+        <div class="project">
+          <div class="thumb" aria-hidden="true"></div>
+          <h3>New Build — Completed</h3>
+          <p>Location • Year • 1–2 sentence summary (scope, design intent, outcome).</p>
+          <div class="tags">
+            <span class="tag">New Build</span><span class="tag">Completed</span><span class="tag">Custom</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card half">
+        <h3>Highlights</h3>
+        <p style="margin-top:6px;">
+          Add 3–6 bullets here so it reads premium:
+        </p>
+        <ul>
+          <li>Signature features (views, layout, indoor/outdoor flow, ADU, etc.)</li>
+          <li>Notable finishes (appliances, cabinetry, stone, fixtures)</li>
+          <li>Role: development, design, project oversight</li>
+          <li>Outcome: sold / retained / marketed</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- IN PROGRESS -->
+  <section class="section" id="in-progress">
+    <h2>In Progress</h2>
+
+    <div class="grid">
+      <div class="card half">
+        <div class="project">
+          <div class="thumb" aria-hidden="true"></div>
+          <h3>New Build — In Progress</h3>
+          <p>
+            Location • Estimated completion • Short sentence about what’s being built and why it’s special.
+          </p>
+          <div class="tags">
+            <span class="tag">New Build</span><span class="tag">In Progress</span><span class="tag">Behind the Scenes</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card half">
+        <h3>Milestones</h3>
+        <ul>
+          <li>Current phase: (foundation / framing / rough-ins / drywall / finishes)</li>
+          <li>Next: (inspections / cabinets / countertops / landscaping)</li>
+          <li>Design direction: modern, warm, timeless materials</li>
+          <li>Updates: link to YouTube / Instagram later</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
