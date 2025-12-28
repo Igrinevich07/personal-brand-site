@@ -1,1 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name — Personal Brand</title>
+  <meta name="description" content="Modern personal brand website with a simple, elegant look and gold accents." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="index.html" aria-label="Go to Home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Your Name</span>
+      </a>
 
+      <nav class="nav-links" aria-label="Primary">
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="kicker">Modern • Simple • Intentional</div>
+      <h1>Build a brand that feels like you — clean, confident, and memorable.</h1>
+      <p>
+        This is your homepage intro. In 1–2 sentences, say who you help and what you’re known for.
+        Keep it clear and human.
+      </p>
+
+      <div class="actions">
+        <a class="btn primary" href="portfolio.html">View Portfolio</a>
+        <a class="btn" href="contact.html">Contact</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>What I do</h2>
+      <div class="grid">
+        <div class="card third">
+          <h3><span class="gold">01</span> Your Core Offer</h3>
+          <p>One sentence describing your main service or value.</p>
+        </div>
+        <div class="card third">
+          <h3><span class="gold">02</span> Your Differentiator</h3>
+          <p>What makes your approach unique (simple + specific).</p>
+        </div>
+        <div class="card third">
+          <h3><span class="gold">03</span> Your Results</h3>
+          <p>What outcomes people can expect from working with you.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Featured work</h2>
+      <div class="grid">
+        <div class="card half">
+          <div class="project">
+            <div class="thumb" aria-hidden="true"></div>
+            <h3>Project Name</h3>
+            <p>Short description of what it was and why it mattered.</p>
+            <div class="tags">
+              <span class="tag">Brand</span><span class="tag">Content</span><span class="tag">Strategy</span>
+            </div>
+          </div>
+        </div>
+        <div class="card half">
+          <div class="project">
+            <div class="thumb" aria-hidden="true"></div>
+            <h3>Project Name</h3>
+            <p>Short description of what it was and the result.</p>
+            <div class="tags">
+              <span class="tag">Portfolio</span><span class="tag">Design</span><span class="tag">Growth</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="actions" style="margin-top:16px;">
+        <a class="btn" href="portfolio.html">See all projects</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-row">
+      <div>© <span id="y"></span> Your Name</div>
+      <div>Made with <span class="gold">gold</span> accents ✨</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
